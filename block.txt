@@ -1,0 +1,38 @@
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm 
+   The four boxes have five pixel borders with different colors and five pixels of margin and padding. It is probably simplest to use fixed positioning to get the boxes to be "sticky" to the corners of the screen even when you resize. Make the boxes width be 25% so the width changes as you resize your browser.*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+#one {
+    border-style:solid
+    border-color:blue
+    border-width:5px
+    padding:2px
+    position:bottom-right
+}
+#two {
+    border-style:solid
+    border-color:green
+    border-width:5px
+    padding:2px
+    position:top-right
+}
+#three {
+    border-style:solid
+    border-color:orange
+    border-width:5px
+    padding:2px
+    position:top-right
+}
+#four {
+    border-style:solid
+    border-color:yellow
+    border-width:5px
+    padding:2px
+    position:bottom-left
+}
